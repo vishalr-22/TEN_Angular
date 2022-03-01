@@ -1,0 +1,21 @@
+/* member registration */
+
+
+.memb{
+    background-color: aquamarine;
+    color: red;
+    padding: 5%;
+    font-size: 150%;
+}
+#perks{
+    background-color: coral;
+    color: darkgoldenrod;
+    padding:5%;
+    font-size: 170%;
+}
+#memform{
+    background-color: black;
+    padding: 5%; 
+    padding-top: 10%;
+    padding-bottom: 10%;
+}

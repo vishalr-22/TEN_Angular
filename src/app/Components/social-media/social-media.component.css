@@ -1,0 +1,16 @@
+/* social media */
+
+.social_media{
+    background-image: url("../../../assets/images/socailmedia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    background-attachment: fixed;
+}
+#sm1, #sm2, #sm3, #sm4, #sm5,#sm6,#sm7,#sm8{
+    background-color: rgb(0, 195, 255);
+    opacity: 80%;
+    font-weight: 600;
+    padding: 1%;
+    word-wrap: break-word;
+}

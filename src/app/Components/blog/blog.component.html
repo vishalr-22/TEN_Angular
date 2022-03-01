@@ -1,0 +1,41 @@
+<div class="blogs">
+    <!-- <div class="container">
+        <div class="row" style="text-align: center;">
+                <div class="col-md-3" *ngFor="let b of blogs">
+                    <div class="container">
+                    <div class="card">
+                        <img class="card-img-top" src={{b.img}} style="width: 100%; height:12rem">
+                        <div class="card-body"> -->
+    <!-- <h5 class="card-title">Card title</h5> -->
+    <!-- <p class="card-text">{{b.name}}</p> -->
+    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <!-- <p class="card-text"> {{b.date}}</p>
+                            <h5 class="card-title">{{b.desc}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="container">
+        <div style="text-align: center;">
+            <div *ngFor="let b of blogs">
+                <div style="margin: 0.9%; float: left;">
+                    <div class="card">
+                        <img class="card-img-top" src={{b.img}} style="width: 100%; height:12rem">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <p class="card-text">{{b.name}}</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <p class="card-text"> {{b.date}}</p>
+                            <h5 class="card-title">{{b.desc}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;">
+
+    </div>
+</div>

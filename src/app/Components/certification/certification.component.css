@@ -1,0 +1,14 @@
+
+#certificate{
+    background-image: url("../../../assets/images/graduate_holding_diploma.webp");
+    padding: 5%;
+    margin: 3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+.f1{
+    height: 100px;
+    width: 100px;
+}

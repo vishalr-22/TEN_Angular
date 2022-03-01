@@ -1,0 +1,40 @@
+#know{
+    width: 100%;
+    height: auto;
+}
+#about{
+    background-color: rgb(241, 81, 69);
+    padding: 5%;
+    padding-top: 2%;
+}
+#img1{
+    background-image: url("../../../assets/images/office.webp");
+    padding: 3%;
+    background-repeat: no-repeat;
+}
+#text1{
+    margin-left: 10%;
+    color: orangered;
+    font-size: 50% !important;
+    
+}
+#text1 h1{
+    font-size: 750%;
+}
+#img1r{
+    background-color: crimson;
+    /* display: block;    */
+}
+#dm, #dm2{
+    background-color: crimson;
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+#course_benefits{
+    background-color: whitesmoke;
+    padding: 5%;
+
+}
+
+

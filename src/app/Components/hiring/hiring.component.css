@@ -1,0 +1,24 @@
+/* we are hiring */
+.hiring{
+    background-image: url("../../../assets/images/working_men.jpg");
+    
+    /* opacity: 70%; */
+    background-repeat: no-repeat !important;
+    background-size:cover;
+    color: white;
+    padding: 3%;
+    margin: 3%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+#intern_forms{
+    background-image: url("../../../assets/images/background_for_hiring_form.webp");
+    background-repeat: no-repeat;
+    margin: 3%;
+    /* filter: grayscale(100%); */
+    /* filter:brightness(40%); */
+    filter: drop-shadow(70%);
+    padding: 3%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}

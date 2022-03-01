@@ -1,0 +1,21 @@
+<app-header (Course_Click)="course_click()" (hiring)="hiring_interns()" (home_page)="home()" (Membership)="membership()"
+    (certificate)="certification()" (alumni_team)="alumni()" (Hackathon)="hackathon()" (Mentorship)="mentorship()"
+    (Campus_ambas)="ambassador()" (Social_media)="social_media()" (contact)="contactus()" (Complaints)="complaints()"
+    (Forum)="forum()" (Testimonials)="testimonial()" (blog)="blogs()">
+
+</app-header>
+<app-home *ngIf="home_var"></app-home>
+<app-online-courses *ngIf="online_courses_var"></app-online-courses>
+<app-hiring *ngIf="hiring_var"></app-hiring>
+<app-blog *ngIf="blog_var"></app-blog>
+<app-certification *ngIf="certificate_var"></app-certification>
+<app-alumni-team *ngIf="alumni_var"></app-alumni-team>
+<app-forum *ngIf="forum_var"></app-forum>
+<app-hackathon *ngIf="hackathon_var"></app-hackathon>
+<app-membership *ngIf="membership_var"></app-membership>
+<app-campus-ambassador *ngIf="ambassador_var"></app-campus-ambassador>
+<app-mentorship *ngIf="mentorship_var"></app-mentorship>
+<app-social-media *ngIf="social_media_var"></app-social-media>
+<app-testimonials *ngIf="testimonial_var"></app-testimonials>
+<app-contactus *ngIf="contactus_var"></app-contactus>
+<app-complaints *ngIf="complaints_var"></app-complaints>

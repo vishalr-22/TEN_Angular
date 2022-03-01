@@ -1,0 +1,12 @@
+/* complaints */
+#complaint{
+    background-image: url("../../../assets/images/complaints.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 90%;
+    background-size: 40%; 
+    background-position-y: 50%;
+    padding: 5%;
+    font-size: 140%;
+
+}

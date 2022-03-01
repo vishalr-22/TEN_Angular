@@ -1,0 +1,21 @@
+/* Campus    Ambassador  Registration */
+
+#campregistration{
+    background-color: black;
+    padding: 5%;
+}
+
+#skillsreq{
+    padding: 5%;
+    font-size: 140%;
+}
+#skillsreq ul li{
+    margin: 2%;
+}
+#campform{
+    background-color: black;
+    padding: 5%; 
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+

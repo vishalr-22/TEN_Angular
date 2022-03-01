@@ -1,0 +1,48 @@
+<div class="online_courses" id="online_courses">
+    <div class="container">
+        <div class="container-fluid" >
+            <ng5-slider [(value)]="minValue" [(highValue)]="maxValue" [options]="options"></ng5-slider>
+        </div>
+        <!-- <div class="container">
+            <div class="row" style="text-align: center;">
+                <div class="col-md-4" *ngFor="let c of courses">
+                    <div *ngIf="greaterThan(c.price, maxValue)">
+                        <div *ngIf="lessThan(c.price, minValue)">
+                            <div class="card" style="width: 18rem; height: 20.5rem; margin:3%;">
+                                <img class="card-img-top" src={{c.img}} style="width: 18rem; height:12rem">
+                                <div class="card-body"> -->
+                                    <!-- <h5 class="card-title">Card title</h5> -->
+                                    <!-- <p class="card-text">{{c.desc}}</p> -->
+                                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                    <!-- <p class="card-text"> {{c.price}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container">
+            <div  style="text-align: center;">
+                <div *ngFor="let c of courses">
+                    <div *ngIf="greaterThan(c.price, maxValue)">
+                        <div *ngIf="lessThan(c.price, minValue)" style="margin: 3%; float: left;">
+                            <div class="card" style="width: 18rem; height: 20.5rem; margin:3%;">
+                                <img class="card-img-top" src={{c.img}} style="width: 18rem; height:12rem">
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Card title</h5> -->
+                                    <p class="card-text">{{c.desc}}</p>
+                                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                    <p class="card-text"> {{c.price}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;">
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+
+/* hackathon */
+#hackpic{
+    /* float: left; */
+    display: block;
+}
+#hacktext{
+    background-color: brown;
+    display: block;
+    
+}
+#abouthactext{
+    padding: 3%;
+    background-color: papayawhip;
+    color: goldenrod;
+}
+#abouthacpic{
+    background-image: url("../../../assets/images/abouthack.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#talks{
+    background-color: black;
+    color:white;
+    padding:3%;
+    font-size: 130%;
+}
+#workshop{
+    background-color: plum;
+    color: black;
+    padding:3%;
+    font-size: 130%;
+}
+#partnership{
+    background-color: aquamarine;
+    color: black;
+    padding:3%;
+    font-size: 130%;
+    
+}

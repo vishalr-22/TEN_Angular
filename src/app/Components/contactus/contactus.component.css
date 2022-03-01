@@ -1,0 +1,14 @@
+/* contact us */
+#contact_form{
+    display: block;
+    border: 1px solid black;
+    padding: 5%;
+    background-color: rgb(250, 240, 226);
+    block-size: 50%;
+}
+#faq{
+    background-color: rgb(252, 107, 55);
+    padding: 5%;
+    color: black;
+    font-size: 120%;
+}

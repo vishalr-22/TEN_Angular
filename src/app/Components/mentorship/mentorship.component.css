@@ -1,0 +1,31 @@
+/* mentorship */
+#ment{
+    background-color: rgb(169, 113, 221);
+    padding: 5%;
+}
+#ment div div img{
+    width: 100%;
+    height: auto;
+}
+#ment div div p{
+    font-size: 130%;
+    padding: 1%;
+}
+#whyten{
+    background-image: url("../../../assets/images/whyten.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    color:white;
+    font-size: 130%;
+}
+#whyten div h1{
+    text-align: center;
+    color: black;
+}
+#cont{
+    background-color: rgba(0,0,0, 0.6);
+}
+#whyten div div p{
+    padding: 8%;
+}

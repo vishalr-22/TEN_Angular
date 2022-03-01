@@ -1,0 +1,8 @@
+/* blogs */
+.blogs .card{
+    width: 16rem; 
+    height: 24.5rem; 
+    margin:3%;
+    border: 5px solid rgb(179, 172, 172);
+    border-radius: 0px;
+}

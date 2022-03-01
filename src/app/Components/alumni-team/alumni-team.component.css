@@ -1,0 +1,13 @@
+/* alumni team */
+#alumni1 div, #alumni2 div{
+    text-align: center;
+    padding: 2%;
+}
+#alumni1 div img, #alumni2 div img{
+    width: 100%;
+    height: auto;
+}
+#alumni1 div p, #alumni2 div p{
+    font-size: 120%;
+    text-decoration: underline;
+}
